@@ -129,6 +129,10 @@ h2 {
     padding-top: 200px;
     background: 
     url(../img/pexels-steve-759550\ 3.jpg) center no-repeat;
+
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 70px;
 }
 
 .home__text {
@@ -157,7 +161,7 @@ h2 {
 .about__info {
     width: 50%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
 
     /* transform: translate(0px, 120%);
     opacity: 0;
