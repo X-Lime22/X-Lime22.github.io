@@ -57,6 +57,7 @@ h2 {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* background-color:rgb(0, 0, 0); */
 }
 
 
@@ -128,7 +129,7 @@ h2 {
     min-height: 100vh;
     padding-top: 200px;
     background: 
-    url(../img/pexels-steve-759550\ 3.jpg) center no-repeat;
+    url(../img/pexels-steve-759550\ 3.jpg) center / cover no-repeat;
 
     display: flex;
     align-items: flex-end;
@@ -155,7 +156,7 @@ h2 {
     min-height: 100vh;
     max-width: 100%;
     background: 
-    url(../img/mv10094.jpg) center no-repeat;
+    url(../img/mv10094.jpg) center / cover no-repeat;
 }
 
 .about__info {
@@ -210,7 +211,7 @@ h2 {
     min-height: 100vh;
     max-width: 100%;
     background: 
-    url(../img/the\ good.jpg) center no-repeat;
+    url(../img/the\ good.jpg) center / cover no-repeat;
 }
 
 .story__text {
@@ -223,7 +224,7 @@ h2 {
     min-height: 100vh;
     max-width: 100%;
     background: 
-    url(../img/trio.jpg) center no-repeat;
+    url(../img/trio.jpg) center / cover no-repeat;
 }
 
 .narrative__text {
